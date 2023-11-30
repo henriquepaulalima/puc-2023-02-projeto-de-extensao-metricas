@@ -1,0 +1,53 @@
+.home .title {
+  color: #89124E;
+}
+
+.home .content {
+  background-color: rgba(137, 18, 78, .15);
+}
+
+.home .content .text p {
+  color: #252525;
+}
+
+.home .buttons .img-button {
+  height: 7rem;
+  cursor: pointer;
+}
+
+.home .buttons img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  opacity: .5;
+  transition: ease .25s;
+}
+
+.home .buttons img:hover {
+  opacity: .75;
+}
+
+.home .buttons .img-button p {
+  color: #89124E;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.home .carousel .carousel-inner {
+  cursor: pointer;
+}
+
+.home .carousel .carousel-item img {
+  height: 50vh;
+}
+
+.home .carousel .carousel-caption {
+  right: auto;
+  left: auto;
+}
+
+.home .carousel .carousel-caption h5 {
+  background-color: rgba(255, 255, 255, .75);
+  color: #89124E;
+}

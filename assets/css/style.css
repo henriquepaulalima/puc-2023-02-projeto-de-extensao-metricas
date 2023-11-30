@@ -1,0 +1,50 @@
+body {
+  min-height: 100vh;
+}
+
+header {
+  height: 5rem;
+}
+
+header .navbar.navbar-expand-lg {
+  background-color: #89124E;
+}
+
+header .navbar-nav .nav-link {
+  color: #fff;
+  transition: ease .25s;
+}
+
+header .navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, .5);
+}
+
+header .navbar-nav .nav-link.active {
+  background-color: #fff;
+  color: #89124E;
+}
+
+header .navbar-nav .nav-link.active:hover {
+  opacity: .5;
+}
+
+header .back-btn {
+  color: #fff;
+  transition: ease .25s;
+  cursor: pointer;
+}
+
+header .back-btn:hover {
+  background-color: #fff;
+  color: #89124E;
+}
+
+footer {
+  height: 5rem;
+  background-color: #89124E;
+  color: #fff;
+}
+
+main {
+  min-height: calc(100vh - 10rem);
+}

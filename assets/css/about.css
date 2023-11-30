@@ -1,0 +1,25 @@
+.about .title {
+  color: #89124E;
+}
+
+.about .content {
+  background-color: rgba(137, 18, 78, .15);
+}
+
+.about .text p {
+  color: #252525;
+}
+
+.about .text li {
+  color: #89124E;
+}
+
+.about button.btn {
+  background-color: #89124E;
+  border-color: #89124E;
+}
+
+.about button.btn:hover {
+  background-color: #550B30;
+  border-color: #550B30;
+}

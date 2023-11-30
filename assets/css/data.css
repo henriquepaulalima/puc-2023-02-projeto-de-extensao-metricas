@@ -1,0 +1,16 @@
+.data .title {
+  color: #89124E;
+}
+
+.data .content {
+  background-color: rgba(137, 18, 78, .15);
+}
+
+.data .table td {
+  border-color: #89124E;
+  border-bottom-width: 3px;
+}
+
+.data iframe {
+  min-height: 75vh;
+}
